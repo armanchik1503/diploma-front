@@ -1,0 +1,24 @@
+
+.nav-top{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+  }
+
+.nav_link{
+   padding-top: 30px;
+}
+
+.post{
+   padding-top: 15px;
+
+}
+
+.nav-bottom{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    text-align: center;
+    vertical-align: middle;
+  }

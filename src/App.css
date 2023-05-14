@@ -1,0 +1,373 @@
+body {
+  /* font-family: "Roboto"; */
+  font-style: normal;
+  background-color: rgba(182, 208, 225, 0.1);
+}
+.eclipse {
+  width: 550px;
+  height: 500px;
+  left: 924px;
+  top: 62.15px;
+
+  border-radius: 250px;
+  overflow: hidden;
+}
+
+.picture {
+  width: 300px;
+  height: 300px;
+  left: 924px;
+  top: 62.15px;
+  align-content: center;
+}
+
+.btn {
+  background-color: #2b5ba4;
+  color: white;
+  border-radius: 5px;
+  height: 40px !important;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+.main-content {
+  display: grid;
+  grid-template-columns: 60% 20%;
+  /* margin-left: 10%;
+   margin-right: 10%; */
+  background-color: #ffffff;
+  /* padding-bottom: 150px; */
+}
+
+.main-content-header {
+  display: grid;
+  /* grid-template-columns: 60% 20%; */
+  /* margin-left: 10%;
+   margin-right: 10%; */
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+
+.gridCard {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 70px;
+  text-align: center;
+}
+
+.card {
+  /* margin: 10px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fea-companies {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 70px;
+  text-align: center;
+}
+.fea-companies-browse {
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  /* margin: 70px; */
+  text-align: center;
+}
+.card-company {
+  /* margin: 10px;
+   */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#rounded-pic {
+  /* position: absolute; */
+  margin-left: 15px !important;
+}
+
+.main-content-posts {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 50% 50%;
+  /* margin-left: 70px; */
+  background-color: #ffffff;
+  padding-bottom: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.css-j7zqhg-JoyCard-root {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post {
+  /* background: rgba(182, 208, 225, 0.1); */
+  /* margin: 20px; */
+  margin: 10px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.css-wzqve4-JoyCard-root {
+  background-color: rgba(182, 208, 225, 0.1) !important;
+  /* padding: 25px !important; */
+}
+
+.posted {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 15% 85%;
+  border: 1px solid black;
+
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #ffffff;
+  padding: 15px;
+  /* padding-left: 57px; */
+  padding-bottom: 70px;
+  border-radius: 5px;
+  /* vertical-align: middle;
+    padding-top: 125px; */
+}
+
+.my-int {
+  width: 146px;
+  height: 27px;
+  float: right;
+  margin-top: 2%;
+  color: #2b5ba4;
+  background: rgba(182, 208, 225, 0.1);
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}
+
+.post-more {
+  width: 146px;
+  height: 27px;
+  float: right !important;
+  margin-right: 3%;
+  margin-top: 2%;
+
+  background: #2b5ba4;
+  border: 1px solid #2b5ba4;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.company-main {
+  display: grid;
+  grid-template-columns: 70% 20%;
+
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.company-main-browse {
+  display: grid;
+  grid-template-columns: 25% 65% ;
+
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.company-name {
+  background-color: #ffffff;
+}
+
+.right-sidebar {
+  float: right;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+.left-sidebar {
+  float: left;
+  margin-right: 10%;
+  /* margin-left: 5%; */
+}
+.company-dashboard {
+  border-radius: 7px;
+  background-color: #ffffff;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  width: 290px;
+  height: 360px;
+  /* left: 1020px; */
+  top: 20px;
+  margin-bottom: 20px;
+}
+
+.company-dashboard-find-right {
+  border-radius: 7px;
+  background-color: #ffffff;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  width: 290px;
+  height: 300px;
+  /* left: 1020px; */
+  top: 20px;
+  margin-bottom: 20px;
+}
+
+.company-dashboard-left {
+  border-radius: 7px;
+  background-color: #ffffff;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  width: 200px;
+  height: 1300px;
+  /* left: 1020px; */
+  top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 220px 70%;
+  padding-bottom: 5%;
+}
+
+.tabs-profile {
+  margin-top: 3%;
+  /* width: 65%; */
+}
+
+.react-tabs__tab {
+  padding: 20px 50px !important;
+}
+
+.about-profile {
+  padding: 30px;
+  background: #ffffff;
+  margin-top: 3%;
+}
+
+.btn-contact {
+  background-color: #2b5ba4;
+  color: white;
+  height: 40px !important;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+.benefits-profile,
+.verified_by,
+.team-profile {
+  padding: 30px;
+  background: #ffffff;
+  margin-top: 3%;
+}
+.reviewer-profile {
+  padding: 5%;
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.btn-profile{
+border:none;
+width: 116px;
+height: 30px;
+/* left: calc(50% - 116px/2 + 144px); */
+/* top: calc(50% - 30px/2 + 8px); */
+margin-top: 7px;
+margin-bottom: 5px;
+background: rgba(182, 208, 225, 0.1);
+border-radius: 5px;
+}
+.btn-profile-blue{
+  border:none;
+  width: 116px;
+  height: 30px;
+  /* left: calc(50% - 116px/2 + 144px); */
+  /* top: calc(50% - 30px/2 + 8px); */
+  
+  background: #2B5BA4;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  }
+
+  .internship-info{
+    margin-top: 5%;
+    
+  }
+  .item{
+padding-top: 55px;
+padding-bottom: 55px;
+padding-left: 15px;
+padding-right: 10px;
+background: #FFFFFF;
+margin-bottom: 20px;
+  }
+
+  .grp_btns{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .btn_upload{
+    color: black;
+    background: #ffffff;
+    width: 45px !important;
+    padding-top: 5px;
+    position: absolute;
+    right: 10%;
+
+    border-radius: 5px;
+    height: 20px !important;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #formControl{
+    background: rgba(182, 208, 225, 0.2);
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 0;
+  }
+
+  #fullname{
+    padding: 10px;
+    background-color: rgba(182, 208, 225, 0.2);
+    border-radius: 5px;
+  }
+
+  .company-main-find {
+  display: grid;
+  grid-template-columns: 25% 55% 15%;
+
+  margin-right: 10%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}

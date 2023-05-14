@@ -1,0 +1,44 @@
+ <div className="right-sidebar">
+            <div className="company-dashboard-find-right ">
+              <p>
+                <b>📨 Email me for internships</b>
+              </p>
+              <hr
+                style={{ border: "0.2px solid #dcd5d5", borderRadius: "5px" }}
+              />
+              <br />
+
+              <span>
+                Ut esse eiusmod aute. Sit enim labore dolore. Aute ea fugiat
+                commodo ea foes.
+              </span>
+              <br />
+              <br />
+              <TextField sx={{ width: "100%" }} placeholder="name@mail.com" />
+
+              <button style={{ width: "100%", marginTop: 10 }} className="btn">
+                Subcribe
+              </button>
+            </div>
+            <div className="company-dashboard-find-right ">
+              <p>
+                <b>🚀 Get noticed faster</b>
+              </p>
+              <hr
+                style={{ border: "0.2px solid #dcd5d5", borderRadius: "5px" }}
+              />
+              <br />
+
+              <span>
+                Quis eiusmod deserunt cillum laboris magna cupidatat esse labore
+                irure quis cupidatat in.
+              </span>
+              <br />
+              <br />
+              {/* <TextField sx={{width:'100%'}} placeholder="name@mail.com"/> */}
+
+              <button style={{ width: "100%", marginTop: 10 }} className="btn">
+                Register
+              </button>
+            </div>
+          </div>
